@@ -19,7 +19,8 @@ int main(){
 	media = n1 + n2 + n3 / 3;
 	
 	printf("O VALOR CALCULADO DA MÉDIA ENTRE OS NÚMEROS : %.2f , %.2f e %.2f É : %.1f  \n", n1,n2,n3,media);
-	printf("Como apagamos os parenteses do código, pela regra de operação da matematica, o resultado não vai ser o mesmo da anterior.");
+	printf("O resultado dessa média vai ser diferente do anterior, pois sem os parênteses do cálculo da média,a sequência das operações vão ser diferentes, e isso afeta no resultado. ");
+	
 	
 	system("pause");
 	return 0;
