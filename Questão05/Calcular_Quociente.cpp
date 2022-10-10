@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -17,15 +18,17 @@ int main(){
 	scanf("%d", &n2);	
 	
 	//resultado
-    resultado = (float);
+    
 	resultado = n1 / n2 ;
+	
+	resultado = ((float) n1 / n2 );
 	
 	//resto
 	resto = n1 % 2;
 	
 	//saida 
 	printf("O RESULTADO DA DIVISÃO É : %.2f \n",resultado);
-	printf("O RESTO DA DIVISÃO ENTRE ( %d, %d ) É : %d \n",n1,n2,resto);
+	printf("O RESTO DA DIVISÃO ENTRE ( %d, %d ) É : %f \n",n1,n2,resto);
 	
 	
 }
