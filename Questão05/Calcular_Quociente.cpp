@@ -24,7 +24,7 @@ int main(){
 	resultado = ((float) n1 / n2 );
 	
 	//resto
-	resto = n1 % 2;
+	resto = n1 % n2;
 	
 	//saida 
 	printf("O RESULTADO DA DIVISÃO É : %.2f \n",resultado);
